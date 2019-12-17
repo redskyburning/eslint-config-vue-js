@@ -7,7 +7,6 @@ module.exports = {
 		'plugin:vue/essential',
 		'plugin:vue/recommended',
 		'@vue/standard',
-		'@vue/typescript',
 	],
 	rules: {
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -28,8 +27,5 @@ module.exports = {
 			'alignAttributesVertically': true,
 			'ignores': [],
 		}],
-	},
-	parserOptions: {
-		parser: '@typescript-eslint/parser',
 	},
 };
